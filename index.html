@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>   <!---To add icons-->
+    <link rel="stylesheet" href="style.css">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">   <!---Fonts-->
+    <title>WriteItUp</title>
+</head>
+
+<body >
+    <!---nav bar-->
+    <nav class="topnav">
+        <li><a class="logonav" href="#Home">WriteItUp</a></li>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav" id="navi">
+          <li><a href="#Home" class="navbtn">Home</a></li>
+          <li><a href="#features" class="navbtn">Features</a></li>
+          <li><a href="#scroll" class="navbtn">About</a></li>
+          <li><a href="#footer" class="navbtn">Contact</a></li>
+          <li><a href="./signin-signup/signin.html" >Sign In</a></li>
+        </ul>
+    </nav>
+      <!---Content for cover page-->
+    <div class="container" id="Home"><br><br>
+        <img class="logo" src="images/logo.png" id="logoimage">
+        <div class="all">
+            <div class="text2">
+                <p class="text2" id="covertext">Are you looking for interesting content to read?<br><br>
+                    Or have a brilliant idea to share with the world?<br><br>
+                    Look no further, because we are offering
+                    just that <br><br>and much more!</p>
+            </div>
+            <!--<div class="button">
+                <button class="buttn" id="b1">Login</button>
+                <button class="buttn" id="b2"> Signup</button>
+            </div>-->
+            <span class="readmore">Read More</span>
+            <span><a class="arrow down blinking" href="#features"></a></span> 
+          
+        </div>
+    </div>
+    <hr>
+     <!---features section-->
+     <section id="features" class="feature reveal">
+      <!---content-->
+    <div class="fit">
+      <div class="slide">
+        <div class="feat-text fs">
+          <h6 class="ft " >Lots Of Stories.</h6>
+          <div class="fd">Browse for your favourite story from our exquisite collection.</div>
+        </div>
+        <div class="feat-img fs"><img src="images/stories.svg" width="100%"  class="fm"></div>
+      </div>
+      <div class="slide">
+        <div class="feat-text fs">
+          <h6 class="ft" >Available On The Go.</h6>
+          <div class="fd">Get acces to writeups from a wide range of devices.</div>
+        </div>
+        <div class="feat-img fs"><img src="images/devices.svg" width="100%" class="fm"></div>
+      </div>
+      <div class="slide">
+        <div class="feat-text fs">
+        <h6 class="ft" >Chat With Members.</h6>
+        <div class="fd">Interact with people in the community.</div></div>
+      <div class="feat-img fs"><img src="images/chat.svg"width="100%"  class="fm"></div>
+    </div>
+    <div class="slide">
+      <div class="feat-text fs">
+        <div class="ft" >Get Published.</div>
+        <div class="fd">Share your next big idea with the world.</div></div>
+      <div class="feat-img fs"><img src="images/world.svg" width="100%" class="fm"></div>
+    </div>
+    </div>
+  </section>
+    <hr>
+      <!---About us section-->
+    <section id="scroll" class="au">
+        <!---content-->
+        <div class="reveal">
+          <div class="lefta fs">
+              <h6 class="aboutus">About Us</h6>
+                <div  class="abouttext"> <p>WriteItUp is an online storytelling platform,where enthusiastic writers can publish their
+                    work, and together with the readers, a community is established where the writers
+                    receive honest feedback about their work.</p>
+                </div>
+          </div>
+          <div class="">
+            <img src="images/aboutus.svg" width=100% class="righta" >
+          </div>
+        </div>
+    </section>
+    <hr>
+
+    <!---Team-->
+    <section class="developers reveal">
+      <div >
+      <h3 class="ourteam">Our Team</h3>
+      <div class="team">
+        <div class="member u">
+          <div class="frontcard">
+            <img class="cardimg" src="images/ayesha.jpg">
+            <h3>Ayesha Khalid</h3>
+          </div>
+          <div class="hovercard">      
+            <div class="teamimg"><img src="images/ayesha.png"></div>
+            <h3>Ayesha Khalid</h3>
+            <p class="description">She is an aspiring MERN stack developer with a vision of becoming the best in the field to make her country proud. She is currently pursuing her bachelors in Software Engineering from NED University of Engineering and Technology.</p>
+          </div>
+        </div> 
+        <div class="member a" id="urooj">
+          <div class="frontcard">
+            <img class="cardimg" src="images/urooj.jpg">
+            <h3>Urooj Fatima</h3>
+          </div>
+          <div class="hovercard">      
+            <div class="teamimg"><img src="images/urooj.png"></div>
+            <h3>Urooj Fatima</h3>
+            <p class="description">She is an undergraduate student doing Software Engineering from NED University of Engineering and Technology. She is an enthusiastic graphic designer and web developer who wants to ace every hurdle in her career. </p>
+          </div>
+        </div> 
+      </div>
+    </div>
+      
+    </section>
+    <!---footer-->
+    <footer id="footer">
+        <!---complete section-->
+        <div class="main-content">
+          <!---left area-->
+          <div class="left box">
+            <h2>Contact Us</h2>
+            <div class="content">
+              <div class="flex">
+                <div class="place">
+                  <span class="fas fa-map-marker-alt f" ></span>
+                  <span  class="text">Karachi, Pakistan</span>
+                </div>
+                <div class="phone">
+                  <span class="fas fa-phone-alt f"></span>
+                  <span class="text">+089-765432100</span>
+                </div>
+                <div class="email">
+                  <span class="fas fa-envelope f"><a href="mailto:app.writeitapp@gmail.com"></a></span>
+                  <span class="text">app.writeitapp@gmail.com</span>
+                </div>
+                <div class="fb">
+                  <span class="fab fa-facebook-f f"><a href="https://www.instagram.com/"></a></span>
+                  <span class="text">fb/writeitup</span>
+                </div>
+                <div class="insta">
+                  <span class="fab fa-instagram f"><a href="https://www.instagram.com/"></a></span>
+                  <span class="text">insta/writeitup</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---right area-->
+          <div class="right box">
+            <h2>Need help?</h2>
+            <div class="content"></div>
+              <form action="form.php" method="POST">
+                <div class="email">
+                  <div class="text">Email</div>
+                  <input type="email" placeholder="Email" required>
+                </div>
+                <div class="msg">
+                  <div class="text">Message</div>
+                  <textarea rows="3"  placeholder="Message" required></textarea>
+                </div>
+                <!---send button-->
+                <div class="btn">
+                  <input type="submit" value="Send ">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

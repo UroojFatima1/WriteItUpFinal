@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="signin.css">
+    <title>WriteItUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="sign-in-sign-up">
+                <form action="signin_form.php" method="post" class="signin-form" name="login">
+                    <h2 class="form-title">Sign In</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" name="si_username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" name="si_password">
+                    </div>
+                    <input type="submit" class="btn" value="Login" name="login">
+                    <p class="social-text">Or Sign in using social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </form>
+                <form action="signup_form.php" method="post" class="signup-form" name="register" enctype="multipart/form-data">
+                    <h2 class="form-title">Sign Up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" name="su_username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" name="su_email">
+                    </div>
+                    <div class="input-field">
+                        <i></i>
+                        <input type="date" name="su_dob">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" name="su_password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-upload"></i>
+                        <input type="file" name="su_dp" value="">
+                    </div>
+                    <input type="submit" class="btn" value="Register" name="register">
+                    <p class="social-text">Or Sign up using social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New Here?</h3>
+                    <p>Register right now to get access to unlimited stories.</p>
+                    <button class="btn transparent" id="sign-up-btn">Sign Up</button>
+                </div>
+                <img class="image" src="../images/sign-in.svg" alt="">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Already Registered?</h3>
+                    <p>Sign back in and continue reading your stories.</p>
+                    <button class="btn transparent" id="sign-in-btn">Sign In</button>
+                </div>
+                <img class="image" src="../images/sign-up.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="signin.js"></script>
+
+</html>
